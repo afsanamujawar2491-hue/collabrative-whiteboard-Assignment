@@ -1,7 +1,8 @@
 # Collaborative Whiteboard
 
 Real-time collaborative whiteboard built with React, Spring Boot, Keycloak, and PostgreSQL.
-
+For Project Working  video please refer this link
+https://www.linkedin.com/posts/afsana-mujawar-7b020589_react-typescript-websockets-ugcPost-7471128341467652096-cFj8/?utm_source=share&utm_medium=member_desktop&rcm=ACoAABK3zjQBwLJy5gaY8jWh-VDmbvFE_cDeFWY
 ## Prerequisites
 
 - Docker & Docker Compose
