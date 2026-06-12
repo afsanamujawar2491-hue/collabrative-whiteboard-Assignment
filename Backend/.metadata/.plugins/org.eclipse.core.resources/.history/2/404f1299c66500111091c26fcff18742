@@ -1,0 +1,5 @@
+package com.itv.config;
+
+public class WebSocketConfig {
+
+}

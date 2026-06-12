@@ -1,0 +1,24 @@
+package com.itv.controller;
+
+import org.springframework.messaging.handler.annotation.MessageMapping;
+
+import org.springframework.messaging.handler.annotation.SendTo;
+
+import org.springframework.stereotype.Controller;
+
+import com.itv.model.DrawMessage;
+
+@Controller
+public class WhiteboardController {
+
+    @MessageMapping("/draw")
+
+    @SendTo("/topic/board/{sessionId}")
+
+    public DrawMessage draw(DrawMessage message) {
+
+        return message;
+
+    }
+
+}
